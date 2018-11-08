@@ -99,9 +99,9 @@ class TicTacToe
     until over?
       turn
     end
-     
+
     if over?
-      won? ? "Congratulations #{winner}!" : "Cat's Game!"
+      won? ? (puts "Congratulations #{winner}!") : "Cat's Game!"
     end
   end
 
