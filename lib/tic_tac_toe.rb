@@ -113,8 +113,8 @@ class TicTacToe
 
   def play
    if over?
-#      won? ? puts "Congratulations #{winner}!" : puts "Cat's Game!"
-      won? ? "Congratulations #{winner}!" : "Cat's Game!"
+      won? ? puts "Congratulations #{winner}!" : puts "Cat's Game!"
+#      won? ? "Congratulations #{winner}!" : "Cat's Game!"
     else
       turn
     end
