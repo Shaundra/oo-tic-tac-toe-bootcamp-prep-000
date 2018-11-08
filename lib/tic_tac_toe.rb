@@ -100,10 +100,10 @@ class TicTacToe
       if over?
         if won?
           puts "Congratulations #{winner}!"
-          break
+#          break
         else
           puts "Cat's Game!"
-          break
+#          break
         end
       else
         turn
