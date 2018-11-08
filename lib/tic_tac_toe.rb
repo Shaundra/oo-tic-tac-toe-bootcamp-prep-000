@@ -96,10 +96,12 @@ class TicTacToe
   end
 
   def play
-   if over?
-      won? ? "Congratulations #{winner}!" : "Cat's Game!"
-    else
+    until over?
       turn
+    end
+     
+    if over?
+      won? ? "Congratulations #{winner}!" : "Cat's Game!"
     end
   end
 
