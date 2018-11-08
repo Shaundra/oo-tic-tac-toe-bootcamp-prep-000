@@ -101,7 +101,7 @@ class TicTacToe
     end
 
     if over?
-      won? ? (puts "Congratulations #{winner}!") : "Cat's Game!"
+      won? ? (puts "Congratulations #{winner}!") : (puts "Cat's Game!")
     end
   end
 
