@@ -83,10 +83,10 @@ class TicTacToe
   def draw?
     # won_state = won?
     # full_state = full?(@board)
-    if won? || (!full? && !won?)
-      false
-    elsif !won? && full?
+    if !won? && full?
       true
+    elsif won? || (!full? && !won?)
+      false
     end
   end
 
