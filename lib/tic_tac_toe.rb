@@ -45,7 +45,7 @@ class TicTacToe
     user_input = input_to_index(user_input)
 
     if valid_move?(user_input)
-      move(user_input, current_player(@board))
+      move(user_input, current_player)
       display_board
     else
       puts "Invalid move. Let's try again."
